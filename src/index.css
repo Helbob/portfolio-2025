@@ -142,3 +142,7 @@ button:focus-visible {
   gap: 0.5em;
   flex-wrap: wrap;
 }
+
+.space {
+  margin-top: 4em;
+}

@@ -1,16 +1,26 @@
 import keaLogo from "./assets/kea-logo.svg";
 import kvucLogo from "./assets/kvuc-logo.svg";
 import geomaticLogo from "./assets/geomatic-logo.svg";
+
+// Project images
 import clinicVonHuth from "./assets/clinic-von-huth.png";
+import ilulisatPsykoterapi from "./assets/ilulissat-psykoterapi.png";
+import co2 from "./assets/co2.png";
+import bubbleGumFestival from "./assets/bubble.png";
+
+// Icons + Logos
 import sqaureSpace from "./assets/lineicons_squarespace.svg";
 import webLogo from "./assets/streamline_web-solid.svg";
-import ilulisatPsykoterapi from "./assets/ilulissat-psykoterapi.png";
 import githubLogo from "./assets/github.svg";
 import linkedinLogo from "./assets/linkedin.svg";
 import mailIcon from "./assets/mail2.svg";
 import cssLogo from "./assets/skill-icons_css.svg";
 import htmlLogo from "./assets/skill-icons_html.svg";
 import jsLogo from "./assets/skill-icons_javascript.svg";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+import nextJsLogo from "./assets/nextjs.svg";
+import sass from "./assets/sass.svg";
 
 import "./App.css";
 
@@ -31,7 +41,7 @@ function App() {
       <a href="mailto:millehelbo@outlook.dk">
         <img src={mailIcon} className="links" alt="React logo" />
       </a>
-      <section>
+      <section className="space">
         <h2>ABOUT ME</h2>
         <p>
           I am a 24 year old aspiring web developer with a passion for
@@ -43,7 +53,7 @@ function App() {
           in real-world projects and continue growing as a developer.
         </p>
       </section>
-      <section>
+      <section className="space">
         <h2>EDUCATION</h2>
         <div className="split">
           <div className="split">
@@ -83,7 +93,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section className="space">
         <h2>EXPERIENCE</h2>
         <div className="split">
           <div className="split">
@@ -122,7 +132,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="space">
         <section>
           <h2>PROJECTS</h2>
           <div id="projects">
@@ -180,9 +190,9 @@ function App() {
             </div>
             <div>
               <div className="projectBox">
-                <img src={ilulisatPsykoterapi} alt="" />
+                <img src={co2} alt="" />
                 <div className="padding">
-                  <p>Ilulissat Psykoterapi</p>
+                  <p>CO2 Usage</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     rhoncus dictum leo lacinia blandit. Suspendisse sed sem
@@ -192,12 +202,40 @@ function App() {
                 </div>
                 <div className="icons">
                   <div className="icon2">
-                    <img src={htmlLogo} alt="" />
+                    <img src={reactLogo} alt="" />
+                    <img src={viteLogo} alt="" />
                     <img src={cssLogo} alt="" />
-                    <img src={jsLogo} alt="" />
                   </div>
                   <a
-                    href="https://www.ilulissat-psykoterapi.dk/"
+                    href="https://magical-frangollo-869878.netlify.app/"
+                    target="_blank"
+                    className="icon1"
+                  >
+                    <img src={webLogo} alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="projectBox">
+                <img src={bubbleGumFestival} alt="" />
+                <div className="padding">
+                  <p>Bubble Gum Festival</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
+                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                  </p>
+                </div>
+                <div className="icons">
+                  <div className="icon2">
+                    <img src={reactLogo} alt="" />
+                    <img src={nextJsLogo} alt="" />
+                    <img src={sass} alt="" />
+                  </div>
+                  <a
+                    href="https://bubble-gum-festival.netlify.app/"
                     target="_blank"
                     className="icon1"
                   >
@@ -209,7 +247,7 @@ function App() {
           </div>
         </section>
       </section>
-      <section id="skills">
+      <section id="skills" className="space">
         <h2>SKILLS</h2>
         <div className="">
           <div className="flex">
