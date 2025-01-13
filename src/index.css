@@ -73,12 +73,17 @@ button:focus-visible {
   border-radius: 8px;
   background-color: #1a1a1a;
   transition: transform 0.25s;
+  height: 100%;
 }
 
 .projectBox img {
   width: 100%;
   height: auto;
   border-radius: 8px 8px 0px 0px;
+}
+
+.imgPb {
+  height: 100% !important;
 }
 
 #projects {
@@ -97,9 +102,11 @@ button:focus-visible {
 
 .icon1 {
   /*   width: 7%; */
+  display: flex;
+  gap: 0.5em;
 }
 .icon2 {
-  /*   width: 7%; */
+  width: 7%;
   display: flex;
   gap: 0.5em;
 }

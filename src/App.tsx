@@ -7,6 +7,8 @@ import clinicVonHuth from "./assets/clinic-von-huth.png";
 import ilulisatPsykoterapi from "./assets/ilulissat-psykoterapi.png";
 import co2 from "./assets/co2.png";
 import bubbleGumFestival from "./assets/bubble.png";
+import foodDelivery from "./assets/fooddeliverycrop.png";
+import fitBoks from "./assets/fitboks.png";
 
 // Icons + Logos
 import sqaureSpace from "./assets/lineicons_squarespace.svg";
@@ -21,6 +23,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import nextJsLogo from "./assets/nextjs.svg";
 import sass from "./assets/sass.svg";
+import codeIcon from "./assets/mdi_code.svg";
+import phpLogo from "./assets/php.svg";
+import tailWindLogo from "./assets/tailwind.svg";
+import typeScriptLogo from "./assets/typescript.svg";
+import pythonLogo from "./assets/python.svg";
+import dockerLogo from "./assets/docker.svg";
+import postgresLogo from "./assets/postgres.svg";
+import digitalOceanLogo from "./assets/digitalocean.svg";
+import fastapiLogo from "./assets/fastapi.svg";
 
 import "./App.css";
 
@@ -138,7 +149,49 @@ function App() {
           <div id="projects">
             <div>
               <div className="projectBox">
-                <img src={clinicVonHuth} alt="" />
+                <img src={fitBoks} alt="" className="imgPb" />
+                <div className="padding">
+                  <p>Fitboks</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
+                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                  </p>
+                </div>
+                <div className="icons">
+                  <div className="icon2">
+                    <img src={typeScriptLogo} alt="" />
+                    <img src={pythonLogo} alt="" />
+                    <img src={reactLogo} alt="" />
+                    <img src={dockerLogo} alt="" />
+                    <img src={postgresLogo} alt="" />
+                    <img src={fastapiLogo} alt="" />
+                    <img src={digitalOceanLogo} alt="" />
+                    <img src={tailWindLogo} alt="" />
+                  </div>
+                  <div className="icon1">
+                    <a
+                      href="https://github.com/Bachlor-Eksame-2024"
+                      target="_blank"
+                      className=""
+                    >
+                      <img src={codeIcon} alt="" />
+                    </a>
+                    <a
+                      href="https://mille.fitboks.dk/"
+                      target="_blank"
+                      className=""
+                    >
+                      <img src={webLogo} alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="projectBox">
+                <img src={clinicVonHuth} alt="" className="imgPb" />
                 <div className="padding">
                   <p>Clinic von Huth</p>
                   <p>
@@ -164,7 +217,7 @@ function App() {
             </div>
             <div>
               <div className="projectBox">
-                <img src={ilulisatPsykoterapi} alt="" />
+                <img src={ilulisatPsykoterapi} alt="" className="imgPb" />
                 <div className="padding">
                   <p>Ilulissat Psykoterapi</p>
                   <p>
@@ -190,7 +243,7 @@ function App() {
             </div>
             <div>
               <div className="projectBox">
-                <img src={co2} alt="" />
+                <img src={co2} alt="" className="imgPb" />
                 <div className="padding">
                   <p>CO2 Usage</p>
                   <p>
@@ -218,7 +271,7 @@ function App() {
             </div>
             <div>
               <div className="projectBox">
-                <img src={bubbleGumFestival} alt="" />
+                <img src={bubbleGumFestival} alt="" className="imgPb" />
                 <div className="padding">
                   <p>Bubble Gum Festival</p>
                   <p>
@@ -240,6 +293,34 @@ function App() {
                     className="icon1"
                   >
                     <img src={webLogo} alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="projectBox">
+                <img src={foodDelivery} alt="" className="imgPb" />
+                <div className="padding">
+                  <p>Food Delivery Application</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
+                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                  </p>
+                </div>
+                <div className="icons">
+                  <div className="icon2">
+                    <img src={jsLogo} alt="" />
+                    <img src={phpLogo} alt="" />
+                    <img src={tailWindLogo} alt="" />
+                  </div>
+                  <a
+                    href="https://github.com/Helbob/food-delivery-webdev-exam-github"
+                    target="_blank"
+                    className="icon1"
+                  >
+                    <img src={codeIcon} alt="" />
                   </a>
                 </div>
               </div>
