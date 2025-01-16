@@ -152,10 +152,12 @@ function App() {
                 <div className="padding">
                   <p>Fitboks</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was a part of my final bachelors project. It was up to
+                    my group and I to decide on, what we wanted to develop, as
+                    long as was big enough for a bachelors project. Therefore we
+                    created "FitBoks" - A website, where you can book a solo
+                    fitness box for your own workouts and as a fitnesscenter
+                    manage your boxes.
                   </p>
                 </div>
                 <div className="icons">
@@ -194,10 +196,12 @@ function App() {
                 <div className="padding">
                   <p>Clinic von Huth</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was a freelance project that I made for a client. She
+                    wanted a website for her beauty clinic, where she could
+                    display her work, her clinic, what she does, how to book an
+                    appointment and so on. The design was up to me, but she
+                    wanted a "brown-ish" style, so I made a design that matched
+                    her wises. The logo is made by me as well.
                   </p>
                 </div>
                 <div className="icons">
@@ -220,10 +224,11 @@ function App() {
                 <div className="padding">
                   <p>Ilulissat Psykoterapi</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was another freelance project that I made for another
+                    client. At first she wanted a website, to promote a course.
+                    For now that is what it does, and it still needs to be
+                    adjusted, so it's a website for her therapy clinic, where
+                    customers can see what kind of therapy she offers and such.
                   </p>
                 </div>
                 <div className="icons">
@@ -246,10 +251,10 @@ function App() {
                 <div className="padding">
                   <p>CO2 Usage</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was a project that my group and I made for a school
+                    assignment, in cooperation with the company "Advice". They
+                    wanted us to create a website where you can calculate your
+                    CO2 usage and see how much water that equals to.
                   </p>
                 </div>
                 <div className="icons">
@@ -274,10 +279,12 @@ function App() {
                 <div className="padding">
                   <p>Bubble Gum Festival</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was a part of my final exam on my frontend elective
+                    during my multimedia studies. We had to use a festival API
+                    and create a fictional festival website, where you could see
+                    an overview of the artists playing, which days they are
+                    playing and be able to book one or more tickets, including a
+                    camp spot and a tent.
                   </p>
                 </div>
                 <div className="icons">
@@ -302,10 +309,13 @@ function App() {
                 <div className="padding">
                   <p>Food Delivery Application</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    rhoncus dictum leo lacinia blandit. Suspendisse sed sem
-                    interdum, fringilla. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. dolor sit amet, consectetur adipiscing elit
+                    This was a part of one of my exams during my webdeveloper
+                    studies. We had to create a food delivery app. We decided to
+                    create "Santia-Go", where you can order different sorts of
+                    food and decided to use a "emoji design". The point of this
+                    project, was to be able to create a full-stack application,
+                    where users can signup/login/logout, order and change their
+                    profile. It also had to have a admin view.
                   </p>
                 </div>
                 <div className="icons">
