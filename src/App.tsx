@@ -17,7 +17,6 @@ import githubLogo from "./assets/github.svg";
 import linkedinLogo from "./assets/linkedin.svg";
 import mailIcon from "./assets/mail2.svg";
 import cssLogo from "./assets/skill-icons_css.svg";
-import htmlLogo from "./assets/skill-icons_html.svg";
 import jsLogo from "./assets/skill-icons_javascript.svg";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
@@ -87,7 +86,7 @@ function App() {
             </div>
           </div>
           <div>
-            <p>August 2021 - July 2023</p>
+            <p>August 2021 - June 2023</p>
           </div>
         </div>
         <div className="split">
@@ -99,7 +98,7 @@ function App() {
             </div>
           </div>
           <div>
-            <p>August 2019 - July 2021</p>
+            <p>August 2019 - June 2021</p>
           </div>
         </div>
       </section>
@@ -139,7 +138,7 @@ function App() {
             </div>
           </div>
           <div>
-            <p>10 weeks, January 2023 - Aprll 2023</p>
+            <p>10 weeks, January 2023 - April 2023</p>
           </div>
         </div>
       </section>
