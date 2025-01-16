@@ -37,21 +37,23 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Mille Helbo</h1>
-      <h2 className="purple">Web Developer</h2>
-      <a href="https://github.com/Helbob" target="_blank">
-        <img src={githubLogo} className="links" alt="React logo" />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/siff-mille-helbo-blaaberg-a40329178/"
-        target="_blank"
-      >
-        <img src={linkedinLogo} className="links" alt="React logo" />
-      </a>
-      <a href="mailto:millehelbo@outlook.dk">
-        <img src={mailIcon} className="links" alt="React logo" />
-      </a>
-      <section className="space">
+      <section id="intro">
+        <h1>Mille Helbo</h1>
+        <h2 className="purple">Web Developer</h2>
+        <a href="https://github.com/Helbob" target="_blank">
+          <img src={githubLogo} className="links" alt="React logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/siff-mille-helbo-blaaberg-a40329178/"
+          target="_blank"
+        >
+          <img src={linkedinLogo} className="links" alt="React logo" />
+        </a>
+        <a href="mailto:millehelbo@outlook.dk">
+          <img src={mailIcon} className="links" alt="React logo" />
+        </a>
+      </section>
+      <section className="space" id="about">
         <h2>ABOUT ME</h2>
         <p>
           I am a 24 year old aspiring web developer with a passion for
@@ -63,7 +65,7 @@ function App() {
           in real-world projects and continue growing as a developer.
         </p>
       </section>
-      <section className="space">
+      <section className="space" id="education">
         <h2>EDUCATION</h2>
         <div className="split">
           <div className="split">
@@ -103,7 +105,7 @@ function App() {
         </div>
       </section>
 
-      <section className="space">
+      <section className="space" id="experience">
         <h2>EXPERIENCE</h2>
         <div className="split">
           <div className="split">
@@ -142,7 +144,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="space">
+      <section className="space" id="projectss">
         <section>
           <h2>PROJECTS</h2>
           <div id="projects">

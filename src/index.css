@@ -154,3 +154,49 @@ button:focus-visible {
 .space {
   margin-top: 4em;
 }
+
+@media only screen and (max-width: 600px) {
+  #about {
+    padding: 1rem;
+  }
+  #education {
+    padding: 1rem;
+  }
+  #experience {
+    padding: 1rem;
+  }
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  #projectss {
+    padding: 1rem;
+  }
+  .space {
+    margin-top: 0em;
+  }
+  #skills {
+    padding: 1rem;
+  }
+
+  .icon1 {
+    /*     width: 15%;
+ */
+    display: flex;
+    gap: 0.5em;
+  }
+  .icon2 {
+    width: 7%;
+    display: flex;
+    gap: 0.5em;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-top: auto;
+  }
+}

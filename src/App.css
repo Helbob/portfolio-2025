@@ -50,3 +50,23 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px) {
+  #root {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: none;
+  }
+
+  #intro {
+    text-align: center;
+  }
+
+  .split {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+}
