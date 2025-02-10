@@ -60,9 +60,10 @@ function App() {
           creativity and technology.
         </p>
         <p>
-          I am nearing the end of my web development bachelors, with graduation
-          planned for January 2025. After that, I am excited to apply my skills
-          in real-world projects and continue growing as a developer.
+          I recently graduated with a professional bachelor’s degree in web
+          development from KEA. My journey in web development began with a love
+          for creating engaging, user-centered digital experiences, and it has
+          grown into a pursuit of combining beauty with functionality.
         </p>
       </section>
       <section className="space" id="education">
