@@ -56,7 +56,7 @@ function App() {
       <section className="space" id="about">
         <h2>ABOUT ME</h2>
         <p>
-          I am a 24 year old aspiring web developer with a passion for
+          I am a 25 year old aspiring web developer with a passion for
           creativity and technology.
         </p>
         <p>
