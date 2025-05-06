@@ -360,10 +360,14 @@ function App() {
             <p>MySQL</p>
             <p>Docker</p>
             <p>Design Thinking</p>
-            <p>Adobe XD</p>
             <p>Figma</p>
-            <p>Illustrator</p>
             <p>Bottle</p>
+            <p>Adobe Pack</p>
+            <p>UI/UX</p>
+            <p>User testing</p>
+            <p>User research</p>
+            <p>Responsive Web Design</p>
+            <p>Prototyping</p>
           </div>
         </div>
       </section>
