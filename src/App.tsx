@@ -9,6 +9,7 @@ import co2 from "./assets/co2.png";
 import bubbleGumFestival from "./assets/bubble.png";
 import foodDelivery from "./assets/fooddeliverycrop.png";
 import fitBoks from "./assets/fitboks.png";
+import crestCalc from "./assets/crest-calc.png";
 
 // Icons + Logos
 import sqaureSpace from "./assets/lineicons_squarespace.svg";
@@ -31,6 +32,7 @@ import dockerLogo from "./assets/docker.svg";
 import postgresLogo from "./assets/postgres.svg";
 import digitalOceanLogo from "./assets/digitalocean.svg";
 import fastapiLogo from "./assets/fastapi.svg";
+import htmlLogo from "./assets/skill-icons_html.svg";
 
 import "./App.css";
 
@@ -149,6 +151,43 @@ function App() {
         <section>
           <h2>PROJECTS</h2>
           <div id="projects">
+            <div>
+              <div className="projectBox">
+                <img src={crestCalc} alt="" className="imgPb" />
+                <div className="padding">
+                  <p>WoW Crest Calculator</p>
+                  <p>
+                    Small web application, where you can calculate the crest you
+                    can get based on the crest you already have. It's made for
+                    the game World of Warcraft, and is a nice way to avoid
+                    having to the math yourself.
+                  </p>
+                </div>
+                <div className="icons">
+                  <div className="icon2">
+                    <img src={jsLogo} alt="" />
+                    <img src={cssLogo} alt="" />
+                    <img src={htmlLogo} alt="" />
+                  </div>
+                  <div className="icon1">
+                    <a
+                      href="https://github.com/Helbob/crest-calculator"
+                      target="_blank"
+                      className=""
+                    >
+                      <img src={codeIcon} alt="" />
+                    </a>
+                    <a
+                      href="https://wowcrests.netlify.app/"
+                      target="_blank"
+                      className=""
+                    >
+                      <img src={webLogo} alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div>
               <div className="projectBox">
                 <img src={fitBoks} alt="" className="imgPb" />
